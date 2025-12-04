@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h2>Password Generator</h2>
+
+        <div class="password-box">
+            <input type="text" placeholder="Your Password" readonly>
+            <button class="copy">Copy</button>
+        </div>
+
+        <label>Password length (4–20)</label>
+        <input type="range" min="4" max="20" value="10" class="slider">
+
+        <div class="options">
+            <label><input type="checkbox" checked> Include lowercase (a–z)</label>
+            <label><input type="checkbox" checked> Include uppercase (A–Z)</label>
+            <label><input type="checkbox" checked> Include numbers (0–9)</label>
+            <label><input type="checkbox" checked> Include symbols (!@#$...)</label>
+        </div>
+
+        <button class="generate">Generate</button>
+    </div>
+</div>
+         
+</body>
+</html>
